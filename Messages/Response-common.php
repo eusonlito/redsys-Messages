@@ -10,7 +10,7 @@ return array(
         'message' => 'TRANSACCION APROBADA PREVIA IDENTIFICACION DE TITULAR',
         'detail' => 'Código exclusivo para transacciones Verified by Visa o MasterCard SecureCode. La transacción ha sido autorizada y, además, el banco emisor nos informa que ha autenticado correctamente la identidad del titular de la tarjeta.'
     ),
-    '0002-099' => array(
+    '0002-0099' => array(
         'code' => '0002-0099',
         'message' => 'TRANSACCION APROBADA',
         'detail' => 'Transacción autorizada por el banco emisor.'
@@ -125,7 +125,7 @@ return array(
         'message' => 'CONTACTAR CON EL EMISOR',
         'detail' => 'El banco emisor no permite una autorización automática. Es necesario contactar telefónicamente con su centro autorizador para obtener una aprobación manual. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude.'
     ),
-    '0208-209' => array(
+    '0208-0209' => array(
         'code' => '0208-0209',
         'message' => 'TARJETA PERDIDA O ROBADA',
         'detail' => 'Tarjeta bloqueada por el banco emisor debido a que el titular le ha manifestado que le ha sido robada o perdida. Además, el banco emisor considera que la tarjeta está en una situación de posible fraude.'
