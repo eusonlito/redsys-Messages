@@ -81,9 +81,12 @@ class Messages
      */
     private static function loadRange($key, $value)
     {
-        list($first, $last) = explode('-', $key);
+        $prefix = preg_match('/^[^0-9\-]+/', $key, $prefix) ? $prefix[0] : '';
+
+        list($first, $last) = explode('-', str_replace($prefix, '', $key));
 
         foreach (range($first, $last) as $key) {
+            $value['code'] = $key = $prefix.sprintf('%04d', $key);
             self::$messages[$key] = $value;
         }
     }

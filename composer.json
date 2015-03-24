@@ -17,5 +17,5 @@
             "Redsys\\Messages\\": "./"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
