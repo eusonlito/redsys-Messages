@@ -1,87 +1,87 @@
 <?php
 return array(
-    '904' => array(
-        'code' => '904',
+    '0904' => array(
+        'code' => '0904',
         'message' => 'COMERCIO NO REGISTRADO EN EL FUC',
         'detail' => 'Hay un problema en la configuración del código de comercio. Contactar con Banco Sabadell para solucionarlo.'
     ),
-    '909' => array(
-        'code' => '909',
+    '0909' => array(
+        'code' => '0909',
         'message' => 'ERROR DE SISTEMA',
         'detail' => 'Error en la estabilidad de la plataforma de pagos de Banco Sabadell o en la de los sistemas de intercambio de Visa o MasterCard.'
     ),
-    '912' => array(
-        'code' => '912',
+    '0912' => array(
+        'code' => '0912',
         'message' => 'EMISOR NO DISPONIBLE',
         'detail' => 'El centro autorizador del banco emisor no está operativo en estos momentos.'
     ),
-    '913' => array(
-        'code' => '913',
+    '0913' => array(
+        'code' => '0913',
         'message' => 'TRANSMISION DUPLICADA',
         'detail' => 'Se ha procesado recientemente una transacción con el mismo número de pedido (Ds_Merchant_Order).'
     ),
-    '916' => array(
-        'code' => '916',
+    '0916' => array(
+        'code' => '0916',
         'message' => 'IMPORTE DEMASIADO PEQUEÑO',
         'detail' => 'No es posible operar con este importe.'
     ),
-    '928' => array(
-        'code' => '928',
+    '0928' => array(
+        'code' => '0928',
         'message' => 'TIME-OUT EXCEDIDO',
         'detail' => 'El banco emisor no da respuesta a la petición de autorización dentro del time-out predefinido.'
     ),
-    '940' => array(
-        'code' => '940',
+    '0940' => array(
+        'code' => '0940',
         'message' => 'TRANSACCION ANULADA ANTERIORMENTE',
         'detail' => 'Se está solicitando una anulación o retrocesión parcial de una transacción que con anterioridad ya fue anulada.'
     ),
-    '941' => array(
-        'code' => '941',
+    '0941' => array(
+        'code' => '0941',
         'message' => 'TRANSACCION DE AUTORIZACION YA ANULADA POR UNA ANULACION ANTERIOR',
         'detail' => 'Se está solicitando la confirmación de una transacción con un número de pedido (Ds_Merchant_Order) que se corresponde a una operación anulada anteriormente.'
     ),
-    '942' => array(
-        'code' => '942',
+    '0942' => array(
+        'code' => '0942',
         'message' => 'TRANSACCION DE AUTORIZACION ORIGINAL DENEGADA',
         'detail' => 'Se está solicitando la confirmación de una transacción con un número de pedido (Ds_Merchant_Order) que se corresponde a una operación denegada.'
     ),
-    '943' => array(
-        'code' => '943',
+    '0943' => array(
+        'code' => '0943',
         'message' => 'DATOS DE LA TRANSACCION ORIGINAL DISTINTOS',
         'detail' => 'Se está solicitando una confirmación errónea.'
     ),
-    '944' => array(
-        'code' => '944',
+    '0944' => array(
+        'code' => '0944',
         'message' => 'SESION ERRONEA',
         'detail' => 'Se está solicitando la apertura de una tercera sesión. En el proceso de pago solo está permitido tener abiertas dos sesiones (la actual y la anterior pendiente de cierre).'
     ),
-    '945' => array(
-        'code' => '945',
+    '0945' => array(
+        'code' => '0945',
         'message' => 'TRANSMISION DUPLICADA',
         'detail' => 'Se ha procesado recientemente una transacción con el mismo número de pedido (Ds_Merchant_Order).'
     ),
-    '946' => array(
-        'code' => '946',
+    '0946' => array(
+        'code' => '0946',
         'message' => 'OPERACION A ANULAR EN PROCESO',
         'detail' => 'Se ha solicitada la anulación o retrocesión parcial de una transacción original que todavía está en proceso y pendiente de respuesta.'
     ),
-    '947' => array(
-        'code' => '947',
+    '0947' => array(
+        'code' => '0947',
         'message' => 'TRANSMISION DUPLICADA EN PROCESO',
         'detail' => 'Se está intentando procesar una transacción con el mismo número de pedido (Ds_Merchant_Order) de otra que todavía está pendiente de respuesta.'
     ),
-    '949' => array(
-        'code' => '949',
+    '0949' => array(
+        'code' => '0949',
         'message' => 'TERMINAL INOPERATIVO',
         'detail' => 'El número de comercio (Ds_Merchant_MerchantCode) o el de terminal (Ds_Merchant_Terminal) no están dados de alta o no son operativos.'
     ),
-    '950' => array(
-        'code' => '950',
+    '0950' => array(
+        'code' => '0950',
         'message' => 'DEVOLUCION NO PERMITIDA',
         'detail' => 'La devolución no está permitida por regulación.'
     ),
-    '965' => array(
-        'code' => '965',
+    '0965' => array(
+        'code' => '0965',
         'message' => 'VIOLACIÓN NORMATIVA',
         'detail' => 'Violación de la Normativa de Visa o Mastercard'
     ),

@@ -52,12 +52,39 @@ class Messages
             return self::$messages;
         }
 
-        $files = glob(__DIR__.'/Messages/*.php');
-
-        foreach ($files as $file) {
-            self::$messages = array_merge(self::$messages, require $file);
+        foreach (glob(__DIR__.'/Messages/*.php') as $file) {
+            self::loadArray(require $file);
         }
 
         return self::$messages;
+    }
+
+    /**
+     * @param  array $array
+     * @return null
+     */
+    private static function loadArray(array $array)
+    {
+        foreach ($array as $key => $value) {
+            if (strstr($key, '-')) {
+                self::loadRange($key, $value);
+            } else {
+                self::$messages[$key] = $value;
+            }
+        }
+    }
+
+    /**
+     * @param  string $key
+     * @param  array  $value
+     * @return null
+     */
+    private static function loadRange($key, $value)
+    {
+        list($first, $last) = explode('-', $key);
+
+        foreach (range($first, $last) as $key) {
+            self::$messages[$key] = $value;
+        }
     }
 }
