@@ -1,0 +1,21 @@
+{
+    "name": "redsys/messages",
+    "keywords": ["tpv", "redsys", "sermepa", "servired", "messages"],
+    "description": "Redsys/Sermepa/Servired TPV Messages lists",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lito",
+            "email": "lito@eordes.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Redsys\\Messages\\": "./"
+        }
+    },
+    "minimum-stability": "stable"
+}
