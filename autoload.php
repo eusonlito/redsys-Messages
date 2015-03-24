@@ -1,5 +1,5 @@
 <?php
-function RedsysMessagesAutoload($className)
+spl_autoload_register(function ($className)
 {
     if (strpos($className, 'Redsys\\Messages') !== 0) {
         return;
@@ -18,6 +18,4 @@ function RedsysMessagesAutoload($className)
     if (is_file($fileName)) {
         require $fileName;
     }
-}
-
-spl_autoload_register('RedsysMessagesAutoload');
+});
