@@ -15,7 +15,9 @@ Los ficheros de `Messages` contienen:
 ```php
 include ('/path/to/redsys-Messages/autoload.php');
 
-$all = new Redsys\Messages\Messages::getAll(); // Devuelve todos los mensajes
-$message = new Redsys\Messages\Messages::getByCode('0001'); // Devuelve el mensaje con código
-$messages = new Redsys\Messages\Messages::getByExp('^SIS'); // Devuelve todos los mensajes que contentan esa expresión
+use Redsys\Messages\Messages;
+
+$all = new Messages::getAll(); // Devuelve todos los mensajes
+$message = new Messages::getByCode('0001'); // Devuelve el mensaje con código
+$messages = new Messages::getByExp('^SIS'); // Devuelve todos los mensajes que contentan esa expresión
 ```
