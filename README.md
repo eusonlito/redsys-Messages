@@ -17,7 +17,7 @@ include ('/path/to/redsys-Messages/autoload.php');
 
 use Redsys\Messages\Messages;
 
-$all = new Messages::getAll(); // Devuelve todos los mensajes
-$message = new Messages::getByCode('0001'); // Devuelve el mensaje con código
-$messages = new Messages::getByExp('^SIS'); // Devuelve todos los mensajes que contentan esa expresión
+$all = Messages::getAll(); // Devuelve todos los mensajes
+$message = Messages::getByCode('0001'); // Devuelve el mensaje con código
+$messages = Messages::getByExp('^SIS'); // Devuelve todos los mensajes que contentan esa expresión
 ```
