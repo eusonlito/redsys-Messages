@@ -5,7 +5,7 @@ class Messages
     /**
      * @var array
      */
-    private static $messages = [];
+    private static $messages = array();
 
     /**
      * @return array
