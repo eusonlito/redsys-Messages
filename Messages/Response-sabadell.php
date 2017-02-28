@@ -85,6 +85,11 @@ return array(
         'message' => 'VIOLACIÓN NORMATIVA',
         'detail' => 'Violación de la Normativa de Visa o Mastercard'
     ),
+    '9051' => array(
+        'code' => '9051',
+        'message' => 'NO SE PUEDE REALIZAR LA OPERACIÓN',
+        'detail' => 'Número de pedido repetido'
+    ),    
     '9064' => array(
         'code' => '9064',
         'message' => 'LONGITUD TARJETA INCORRECTA',
