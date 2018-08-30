@@ -17,7 +17,8 @@ class Messages
 
     /**
      * @param  string $code
-     * @return string
+     *
+     * @return array|null
      */
     public static function getByCode($code)
     {
@@ -30,6 +31,7 @@ class Messages
 
     /**
      * @param  string $exp
+     *
      * @return array
      */
     public static function getByExp($exp)
@@ -61,6 +63,7 @@ class Messages
 
     /**
      * @param  array $array
+     *
      * @return null
      */
     private static function loadArray(array $array)
@@ -77,6 +80,7 @@ class Messages
     /**
      * @param  string $key
      * @param  array  $value
+     *
      * @return null
      */
     private static function loadRange($key, $value)
