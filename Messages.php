@@ -24,7 +24,11 @@ class Messages
     {
         self::load();
 
-        if (array_key_exists($code, self::$messages)) {
+        if (preg_match('/^[0-9]+$/', $code)) {
+            $code = (int)$code;
+        }
+
+        if (isset(self::$messages[$code])) {
             return self::$messages[$code];
         }
     }
@@ -55,43 +59,9 @@ class Messages
         }
 
         foreach (glob(__DIR__.'/Messages/*.php') as $file) {
-            self::loadArray(require $file);
+            self::$messages += require $file;
         }
 
         return self::$messages;
-    }
-
-    /**
-     * @param  array $array
-     *
-     * @return null
-     */
-    private static function loadArray(array $array)
-    {
-        foreach ($array as $key => $value) {
-            if (strstr($key, '-')) {
-                self::loadRange($key, $value);
-            } else {
-                self::$messages[$key] = $value;
-            }
-        }
-    }
-
-    /**
-     * @param  string $key
-     * @param  array  $value
-     *
-     * @return null
-     */
-    private static function loadRange($key, $value)
-    {
-        $prefix = preg_match('/^[^0-9\-]+/', $key, $prefix) ? $prefix[0] : '';
-
-        list($first, $last) = explode('-', str_replace($prefix, '', $key));
-
-        foreach (range($first, $last) as $key) {
-            $value['code'] = $key = $prefix.sprintf('%04d', $key);
-            self::$messages[$key] = $value;
-        }
     }
 }
