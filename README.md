@@ -5,10 +5,10 @@ Ficheros de apoyo que contienen los mensajes remitidos por el TPV en la respuest
 
 Los ficheros de `Messages` contienen:
 
- * `MSG.php`: Contiene los mensajes genéricos asociados a la respuesta SIS del sistema. Se utiliza como respuesta al usuario.
- * `ErrorCode.php`: Contiene los errores detallados comunes para todos los sistemas de plataformas TPV (Ds_ErrorCode).
- * `Response-common.php`: Contiene todas las respuestas comunes a todas las entidades (Ds_Response).
- * `Response-sabadell.php`: Contiene todas las respuestas propias de la plataforma de Sabadell (Ds_Response).
+ * `01-SIS.php`: Contiene los errores detallados comunes para todos los sistemas de plataformas TPV (Ds_ErrorCode).
+ * `02-MSG.php`: Contiene los mensajes genéricos asociados a la respuesta SIS del sistema. Se utiliza como respuesta al usuario.
+ * `03-Common.php`: Contiene todas las respuestas comunes a todas las entidades (Ds_Response).
+ * `04-Sabadell.php`: Contiene todas las respuestas propias de la plataforma de Sabadell (Ds_Response).
 
 ## Uso:
 
