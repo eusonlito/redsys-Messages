@@ -179,7 +179,7 @@
   array (
     'code' => 'SIS0024',
     'response' => 9024,
-    'message' => 'El  Ds_Merchant_ConsumerLanguage tiene mas de 3 posiciones',
+    'message' => 'El Ds_Merchant_ConsumerLanguage tiene mas de 3 posiciones',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -443,7 +443,7 @@
   array (
     'code' => 'SIS0057',
     'response' => 9057,
-    'message' => 'Que revise  el importe que quiere devolver( supera el permitido)',
+    'message' => 'Que revise el importe que quiere devolver( supera el permitido)',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -491,7 +491,7 @@
   array (
     'code' => 'SIS0063',
     'response' => 9063,
-    'message' => 'Que el comercio  revise el númer de tarjeta que nos están enviando.',
+    'message' => 'Que el comercio revise el númer de tarjeta que nos están enviando.',
     'msg' => 'MSG0008 ',
     'detail' => '',
   ),
@@ -587,15 +587,7 @@
   array (
     'code' => 'SIS0075',
     'response' => 9075,
-    'message' => 'El comercio tiene que revisar cómo está enviando  el número de pedido',
-    'msg' => 'MSG0008',
-    'detail' => '',
-  ),
-  'SIS0076' =>
-  array (
-    'code' => 'SIS0076',
-    'response' => 9076,
-    'message' => 'El comercio tiene que revisar el número de pedido',
+    'message' => 'El comercio tiene que revisar cómo está enviando el número de pedido',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -611,7 +603,7 @@
   array (
     'code' => 'SIS0078',
     'response' => 9078,
-    'message' => 'Por la configuración de los métodos de pago de su comercio no se permiten los pagos  con esa tarjeta.',
+    'message' => 'Por la configuración de los métodos de pago de su comercio no se permiten los pagos con esa tarjeta.',
     'msg' => 'MSG0005',
     'detail' => '',
   ),
@@ -682,7 +674,7 @@
   'SIS0087' =>
   array (
     'code' => 'SIS0087',
-    'response' => 0,
+    'response' => 9087,
     'message' => 'El valor de Ds_Merchant_Session es nulo.',
     'msg' => 'MSG0008',
     'detail' => '',
@@ -751,6 +743,30 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0096' =>
+  array (
+    'code' => 'SIS0096',
+    'response' => 9096,
+    'message' => 'El formato utilizado para los datos 3DSecure es incorrecto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0097' =>
+  array (
+    'code' => 'SIS0097',
+    'response' => 9097,
+    'message' => 'Valor del campo Ds_Merchant_CComercio no válido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0098' =>
+  array (
+    'code' => 'SIS0098',
+    'response' => 9098,
+    'message' => 'Valor del campo Ds_Merchant_CVentana no válido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0099' =>
   array (
     'code' => 'SIS0099',
@@ -771,7 +787,7 @@
   array (
     'code' => 'SIS0104',
     'response' => 9104,
-    'message' => 'Comercio con "titular seguro" y titular sin clave de compra segura',
+    'message' => 'Comercio con “titular seguro” y titular sin clave de compra segura',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -803,7 +819,7 @@
   array (
     'code' => 'SIS0115',
     'response' => 9115,
-    'message' => 'Que revise los datos  de la operación que nos está enviando',
+    'message' => 'Que revise los datos de la operación que nos está enviando',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -859,7 +875,7 @@
   array (
     'code' => 'SIS0122',
     'response' => 9122,
-    'message' => 'Formato incorrecto  del campo Ds_Merchant_DateFrecuency o  Ds_Merchant_SumTotal',
+    'message' => 'Formato incorrecto del campo Ds_Merchant_DateFrecuency o Ds_Merchant_SumTotal',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -911,6 +927,14 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0129' =>
+  array (
+    'code' => 'SIS0129',
+    'response' => 9129,
+    'message' => 'Error, se ha detectado un intento masivo de peticiones desde la ip',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0130' =>
   array (
     'code' => 'SIS0130',
@@ -939,7 +963,47 @@
   array (
     'code' => 'SIS0133',
     'response' => 9133,
-    'message' => 'La fecha de Confirmación de Autenticación no puede superar en mas de 45 días a la de Autenticacion Previa  que el comercio revise la fecha de la Preautenticación',
+    'message' => 'La fecha de Confirmación de Autenticación no puede superar en mas de 45 días a la de Autenticacion Previa que el comercio revise la fecha de la Preautenticación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0134' =>
+  array (
+    'code' => 'SIS0134',
+    'response' => 9134,
+    'message' => 'El valor del Ds_MerchantCiers enviado no es válido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0135' =>
+  array (
+    'code' => 'SIS0135',
+    'response' => 9135,
+    'message' => 'Error generando un nuevo valor para el IDETRA',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0136' =>
+  array (
+    'code' => 'SIS0136',
+    'response' => 9136,
+    'message' => 'Error al montar el mensaje de notificación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0137' =>
+  array (
+    'code' => 'SIS0137',
+    'response' => 9137,
+    'message' => 'Error al intentar validar la tarjeta como 3DSecure NACIONAL',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0138' =>
+  array (
+    'code' => 'SIS0138',
+    'response' => 9138,
+    'message' => 'Error debido a que existe una Regla del ficheros de reglas que evita que se produzca la Autorizacion',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -956,6 +1020,14 @@
     'code' => 'SIS0140',
     'response' => 9140,
     'message' => 'Error Interno',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0141' =>
+  array (
+    'code' => 'SIS0141',
+    'response' => 9141,
+    'message' => 'Error formato no correcto para 3DSecure',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -979,7 +1051,7 @@
   array (
     'code' => 'SIS0169',
     'response' => 9169,
-    'message' => 'El valor del campo  Ds_Merchant_MatchingData ( Datos de Case)  no es valido , que lo revise',
+    'message' => 'El valor del campo Ds_Merchant_MatchingData ( Datos de Case) no es valido , que lo revise',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1003,7 +1075,7 @@
   array (
     'code' => 'SIS0172',
     'response' => 9172,
-    'message' => 'El valor  del campo PUCE Ds_Merchant_MerchantCode no es válido',
+    'message' => 'El valor del campo PUCE Ds_Merchant_MerchantCode no es válido',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1060,6 +1132,14 @@
     'code' => 'SIS0184',
     'response' => 9184,
     'message' => 'Error interno',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0186' =>
+  array (
+    'code' => 'SIS0186',
+    'response' => 9186,
+    'message' => 'Faltan datos para operación',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1411,7 +1491,7 @@
   array (
     'code' => 'SIS0256',
     'response' => 9256,
-    'message' => 'El comercio no permite operativa de preautorizacion',
+    'message' => 'El comercio no permite operativa de preautorizacion.',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1455,6 +1535,118 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0262' =>
+  array (
+    'code' => 'SIS0262',
+    'response' => 9262,
+    'message' => 'Moneda no permitida para operación de transferencia o domiciliacion',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0263' =>
+  array (
+    'code' => 'SIS0263',
+    'response' => 9263,
+    'message' => 'Error calculando datos para procesar operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0264' =>
+  array (
+    'code' => 'SIS0264',
+    'response' => 9264,
+    'message' => 'Error procesando datos de respuesta recibidos',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS02648' =>
+  array (
+    'code' => 'SIS02648',
+    'response' => 9268,
+    'message' => 'La devolución no se puede procesar por WebService',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0265' =>
+  array (
+    'code' => 'SIS0265',
+    'response' => 9265,
+    'message' => 'Error de firma en los datos recibidos',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0266' =>
+  array (
+    'code' => 'SIS0266',
+    'response' => 9266,
+    'message' => 'No se pueden recuperar los datos de la operación recibida',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0267' =>
+  array (
+    'code' => 'SIS0267',
+    'response' => 9267,
+    'message' => 'La operación no se puede procesar por no existir Codigo Cuenta Cliente',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0269' =>
+  array (
+    'code' => 'SIS0269',
+    'response' => 9269,
+    'message' => 'No se pueden realizar devoluciones de operaciones de domiciliacion no descargadas',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0270' =>
+  array (
+    'code' => 'SIS0270',
+    'response' => 9270,
+    'message' => 'El comercio no puede realizar preautorizaciones en diferido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0274' =>
+  array (
+    'code' => 'SIS0274',
+    'response' => 9274,
+    'message' => 'Tipo de operación desconocida o no permitida por esta entrada al SIS',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0275' =>
+  array (
+    'code' => 'SIS0275',
+    'response' => 9275,
+    'message' => 'Premio sin IdPremio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0277' =>
+  array (
+    'code' => 'SIS0277',
+    'response' => 9277,
+    'message' => 'Error genérico. Consulte con Redsys',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0278' =>
+  array (
+    'code' => 'SIS0278',
+    'response' => 9278,
+    'message' => 'Error en el proceso de consulta de premios',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0279' =>
+  array (
+    'code' => 'SIS0279',
+    'response' => 9279,
+    'message' => 'El comercio no tiene activada la operativa de fidelización',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0280' =>
   array (
     'code' => 'SIS0280',
@@ -1482,7 +1674,7 @@
   'SIS0283' =>
   array (
     'code' => 'SIS0283',
-    'response' => 0,
+    'response' => 9283,
     'message' => 'Se tiene que dirigir a su entidad.',
     'msg' => 'MSG0008',
     'detail' => '',
@@ -1564,6 +1756,14 @@
     'code' => 'SIS0293',
     'response' => 9293,
     'message' => 'Se tiene que dirigir a su entidad.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0294' =>
+  array (
+    'code' => 'SIS0294',
+    'response' => 9294,
+    'message' => 'La tarjeta no es privada.',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1659,7 +1859,7 @@
   array (
     'code' => 'SIS0307',
     'response' => 9307,
-    'message' => 'Que consulye con su entidad. Operativa de tarjeta regalo no permitida',
+    'message' => 'Que consulte con su entidad. Operativa de tarjeta regalo no permitida',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1802,7 +2002,7 @@
   'SIS0333' =>
   array (
     'code' => 'SIS0333',
-    'response' => 0,
+    'response' => 9333,
     'message' => 'Error en una petición a MasterPass Wallet',
     'msg' => 'MSG0008',
     'detail' => '',
@@ -1810,7 +2010,7 @@
   'SIS0334' =>
   array (
     'code' => 'SIS0334',
-    'response' => 9334,
+    'response' => 9283,
     'message' => 'Se tiene que dirigir a su entidad.',
     'msg' => 'MSG0008',
     'detail' => '',
@@ -1819,7 +2019,7 @@
   array (
     'code' => 'SIS0335',
     'response' => 9335,
-    'message' => 'Que revise el valor que envía',
+    'message' => 'El valor del campo Ds_Merchant_Recharge_Commission no es válido',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1868,6 +2068,22 @@
     'code' => 'SIS0341',
     'response' => 9341,
     'message' => 'Error interno (iUPAY)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0342' =>
+  array (
+    'code' => 'SIS0342',
+    'response' => 9342,
+    'message' => 'El comercio no permite realizar operaciones de pago de tributos',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0343' =>
+  array (
+    'code' => 'SIS0343',
+    'response' => 9343,
+    'message' => 'Falta o es incorrecto el parámetro Ds_Merchant_Tax_Reference',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -1988,6 +2204,14 @@
     'code' => 'SIS0358',
     'response' => 9358,
     'message' => 'No dispone de pago iUPAY',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0359' =>
+  array (
+    'code' => 'SIS0359',
+    'response' => 9359,
+    'message' => 'El comercio solamente permite pago de tributos y no se está informando el campo Ds_Merchant_TaxReference',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2275,7 +2499,7 @@
   array (
     'code' => 'SIS0405',
     'response' => 9405,
-    'message' => 'Solicitud de token url denegada  SAFETYPAY',
+    'message' => 'Solicitud de token url denegada SAFETYPAY',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2323,7 +2547,7 @@
   array (
     'code' => 'SIS0411',
     'response' => 9411,
-    'message' => 'Error en la configuración del comercio (Remitir a  su entidad)',
+    'message' => 'Error en la configuración del comercio (Remitir a su entidad)',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2343,11 +2567,115 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0414' =>
+  array (
+    'code' => 'SIS0414',
+    'response' => 9414,
+    'message' => 'El plan de ventas no es correcto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0415' =>
   array (
     'code' => 'SIS0415',
     'response' => 9415,
     'message' => 'El tipo de producto no es correcto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0416' =>
+  array (
+    'code' => 'SIS0416',
+    'response' => 9416,
+    'message' => 'Importe no permitido en devolucion',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0417' =>
+  array (
+    'code' => 'SIS0417',
+    'response' => 9417,
+    'message' => 'Fecha de devolucion no permitida',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0418' =>
+  array (
+    'code' => 'SIS0418',
+    'response' => 9418,
+    'message' => 'No existe plan de ventas vigente',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0419' =>
+  array (
+    'code' => 'SIS0419',
+    'response' => 9419,
+    'message' => 'Tipo de cuenta no permitida',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0420' =>
+  array (
+    'code' => 'SIS0420',
+    'response' => 9420,
+    'message' => 'El comercio no dispone de formas de pago para esta operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0421' =>
+  array (
+    'code' => 'SIS0421',
+    'response' => 9421,
+    'message' => 'Tarjeta no permitida. No es producto Agro',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0422' =>
+  array (
+    'code' => 'SIS0422',
+    'response' => 9422,
+    'message' => 'Faltan datos para operacion Agro',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0423' =>
+  array (
+    'code' => 'SIS0423',
+    'response' => 9423,
+    'message' => 'CNPJ del comecio incorrecto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0424' =>
+  array (
+    'code' => 'SIS0424',
+    'response' => 9424,
+    'message' => 'No se ha encontrado el establecimiento',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0425' =>
+  array (
+    'code' => 'SIS0425',
+    'response' => 9425,
+    'message' => 'No se ha encontrado la tarjeta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0426' =>
+  array (
+    'code' => 'SIS0426',
+    'response' => 9426,
+    'message' => 'Enrutamiento no valido para el comercio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0427' =>
+  array (
+    'code' => 'SIS0427',
+    'response' => 9427,
+    'message' => 'La conexion con CECA no ha sido posible',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2419,7 +2747,7 @@
   array (
     'code' => 'SIS0436',
     'response' => 9436,
-    'message' => 'Error en la construcción del elemento padre <request></request>',
+    'message' => 'Error en la construcción del elemento padre',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2427,7 +2755,7 @@
   array (
     'code' => 'SIS0437',
     'response' => 9437,
-    'message' => 'Error en la construcción del elemento <ds_signatureversion></ds_signatureversion>',
+    'message' => 'Error en la construcción del elemento',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2435,7 +2763,7 @@
   array (
     'code' => 'SIS0438',
     'response' => 9438,
-    'message' => 'Error en la construcción del elemento <datosentrada></datosentrada>',
+    'message' => 'Error en la construcción del elemento',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2443,7 +2771,7 @@
   array (
     'code' => 'SIS0439',
     'response' => 9439,
-    'message' => 'Error en la construcción del elemento <ds_signature></ds_signature>',
+    'message' => 'Error en la construcción del elemento',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2483,7 +2811,7 @@
   array (
     'code' => 'SIS0444',
     'response' => 9444,
-    'message' => 'Se está intentando acceder usando firmas antiguas y el comercio está configurado como HMAC  SHA256',
+    'message' => 'Se está intentando acceder usando firmas antiguas y el comercio está configurado como HMAC SHA256',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2500,6 +2828,14 @@
     'code' => 'SIS0446',
     'response' => 9446,
     'message' => 'Es obligatorio indicar la forma de pago',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0447' =>
+  array (
+    'code' => 'SIS0447',
+    'response' => 9447,
+    'message' => 'Error, se está utilizando una referencia que se generó con un adquirente distinto al adquirente que la utiliza.',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2567,6 +2903,22 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0457' =>
+  array (
+    'code' => 'SIS0457',
+    'response' => 9457,
+    'message' => 'Error, se aplica el método de pago "MasterCard SecureCode" con Respuesta [VEReq, VERes] = N con tarjeta MasterCard Comercial y el comercio no tiene el método de pago "MasterCard Comercial"',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0458' =>
+  array (
+    'code' => 'SIS0458',
+    'response' => 9458,
+    'message' => 'Error, se aplica el método de pago "MasterCard SecureCode" con Respuesta [VEReq, VERes] = U con tarjeta MasterCard Comercial y el comercio no tiene el método de pago "MasterCard Comercial"',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0459' =>
   array (
     'code' => 'SIS0459',
@@ -2604,6 +2956,14 @@
     'code' => 'SIS0463',
     'response' => 9463,
     'message' => 'Metodo de pago no permitido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0464' =>
+  array (
+    'code' => 'SIS0464',
+    'response' => 9464,
+    'message' => 'El comercio no tiene el método de pago "MasterCard Comercial"',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2847,6 +3207,1558 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0495' =>
+  array (
+    'code' => 'SIS0495',
+    'response' => 9495,
+    'message' => 'Configuración incorrecta ApplePay o AndroidPay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0496' =>
+  array (
+    'code' => 'SIS0496',
+    'response' => 9496,
+    'message' => 'No tiene dado de alta el método de pago AndroidPay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0497' =>
+  array (
+    'code' => 'SIS0497',
+    'response' => 9497,
+    'message' => 'No tiene dado de alta el método de pago ApplePay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0498' =>
+  array (
+    'code' => 'SIS0498',
+    'response' => 9498,
+    'message' => 'moneda / importe de la operación de ApplePay no coinciden',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0499' =>
+  array (
+    'code' => 'SIS0499',
+    'response' => 9499,
+    'message' => 'Error obteniendo claves del comercio en Android/Apple Pay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0500' =>
+  array (
+    'code' => 'SIS0500',
+    'response' => 9500,
+    'message' => 'Error en el DCC Dinámico, se ha modificado la tarjeta.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0501' =>
+  array (
+    'code' => 'SIS0501',
+    'response' => 9501,
+    'message' => 'Error en La validación de datos enviados para genera el Id operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0502' =>
+  array (
+    'code' => 'SIS0502',
+    'response' => 9502,
+    'message' => 'Error al validar Id Oper',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0503' =>
+  array (
+    'code' => 'SIS0503',
+    'response' => 9503,
+    'message' => 'Error al validar el pedido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0504' =>
+  array (
+    'code' => 'SIS0504',
+    'response' => 9504,
+    'message' => 'Error al validar tipo de transacción',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0505' =>
+  array (
+    'code' => 'SIS0505',
+    'response' => 9505,
+    'message' => 'Error al validar moneda',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0506' =>
+  array (
+    'code' => 'SIS0506',
+    'response' => 9506,
+    'message' => 'Error al validar el importe',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0507' =>
+  array (
+    'code' => 'SIS0507',
+    'response' => 9507,
+    'message' => 'Id Oper no tiene vigencia',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0508' =>
+  array (
+    'code' => 'SIS0508',
+    'response' => 9508,
+    'message' => 'Error al validar Id Oper',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0510' =>
+  array (
+    'code' => 'SIS0510',
+    'response' => 9510,
+    'message' => 'No se permite el envío de datos de tarjeta si se envía ID de operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0511' =>
+  array (
+    'code' => 'SIS0511',
+    'response' => 9511,
+    'message' => 'Error en la respuesta de consulta de BINES',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0515' =>
+  array (
+    'code' => 'SIS0515',
+    'response' => 9515,
+    'message' => 'El comercio tiene activado pago Amex en Perfil.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0516' =>
+  array (
+    'code' => 'SIS0516',
+    'response' => 9516,
+    'message' => 'Error al montar el mensaje de China Union Pay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0517' =>
+  array (
+    'code' => 'SIS0517',
+    'response' => 9517,
+    'message' => 'Error al establecer la clave para China Union Pay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0518' =>
+  array (
+    'code' => 'SIS0518',
+    'response' => 9518,
+    'message' => 'Error al grabar los datos para pago China Union Pay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0519' =>
+  array (
+    'code' => 'SIS0519',
+    'response' => 9519,
+    'message' => 'Mensaje de autenticación erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0520' =>
+  array (
+    'code' => 'SIS0520',
+    'response' => 9520,
+    'message' => 'El mensaje SecurePlus de sesión está vacío',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0521' =>
+  array (
+    'code' => 'SIS0521',
+    'response' => 9521,
+    'message' => 'El xml de respuesta viene vacío',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0522' =>
+  array (
+    'code' => 'SIS0522',
+    'response' => 9522,
+    'message' => 'No se han recibido parametros en datosentrada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0523' =>
+  array (
+    'code' => 'SIS0523',
+    'response' => 9523,
+    'message' => 'La firma calculada no coincide con la recibida en la respuesta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0524' =>
+  array (
+    'code' => 'SIS0524',
+    'response' => 9524,
+    'message' => 'el resultado de la autenticación 3DSecure MasterCard es PARes="A" o VERes="N" y no recibimos CAVV del emisor',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0525' =>
+  array (
+    'code' => 'SIS0525',
+    'response' => 9525,
+    'message' => 'No se puede utilizar la tarjeta privada en este comercio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0526' =>
+  array (
+    'code' => 'SIS0526',
+    'response' => 9526,
+    'message' => 'La tarjeta no es china',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0527' =>
+  array (
+    'code' => 'SIS0527',
+    'response' => 9527,
+    'message' => 'Falta el parametro obligatorio DS_MERCHANT_BUYERID',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0528' =>
+  array (
+    'code' => 'SIS0528',
+    'response' => 9528,
+    'message' => 'Formato erróneo del parametro DS_MERCHANT_BUYERID en operación Sodexo Brasil',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0529' =>
+  array (
+    'code' => 'SIS0529',
+    'response' => 9529,
+    'message' => 'No se permite operación recurrente en pagos con tarjeta Voucher',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0530' =>
+  array (
+    'code' => 'SIS0530',
+    'response' => 9530,
+    'message' => 'La fecha de Anulación no puede superar en mas de 7 dias a la de Preautorización.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0531' =>
+  array (
+    'code' => 'SIS0531',
+    'response' => 9531,
+    'message' => 'La fecha de Anulación no puede superar en mas de 72 horas a la de Preautorización diferida',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0532' =>
+  array (
+    'code' => 'SIS0532',
+    'response' => 9532,
+    'message' => 'La moneda de la petición no coincide con la devuelta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0533' =>
+  array (
+    'code' => 'SIS0533',
+    'response' => 9533,
+    'message' => 'El importe de la petición no coincide con el devuelto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0534' =>
+  array (
+    'code' => 'SIS0534',
+    'response' => 9534,
+    'message' => 'No se recibe recaudación emisora o referencia del recibo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0535' =>
+  array (
+    'code' => 'SIS0535',
+    'response' => 9535,
+    'message' => 'Pago de tributo fuera de plazo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0536' =>
+  array (
+    'code' => 'SIS0536',
+    'response' => 9536,
+    'message' => 'Tributo ya pagado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0537' =>
+  array (
+    'code' => 'SIS0537',
+    'response' => 9537,
+    'message' => 'Pago de tributo denegado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0538' =>
+  array (
+    'code' => 'SIS0538',
+    'response' => 9538,
+    'message' => 'Rechazo en el pago de tributo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0539' =>
+  array (
+    'code' => 'SIS0539',
+    'response' => 9539,
+    'message' => 'Error en el envío de SMS',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0540' =>
+  array (
+    'code' => 'SIS0540',
+    'response' => 9540,
+    'message' => 'El móvil enviado es demasiado largo (más de 12 posiciones)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0541' =>
+  array (
+    'code' => 'SIS0541',
+    'response' => 9541,
+    'message' => 'La referencia enviada es demasiada larga (más de 40 posiciones)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0542' =>
+  array (
+    'code' => 'SIS0542',
+    'response' => 9542,
+    'message' => 'Error genérico. Consulte con Redsys',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0543' =>
+  array (
+    'code' => 'SIS0543',
+    'response' => 9543,
+    'message' => 'Error, la tarjeta de la operación es DINERS y el comercio no tiene el método de pago "Pago DINERS" o "Pago Discover No Seguro"',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0544' =>
+  array (
+    'code' => 'SIS0544',
+    'response' => 9544,
+    'message' => 'Error, la tarjeta de la operación es DINERS y el comercio no tiene el método de pago "Pago Discover No Seguro"',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0545' =>
+  array (
+    'code' => 'SIS0545',
+    'response' => 9545,
+    'message' => 'Error DISCOVER',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0546' =>
+  array (
+    'code' => 'SIS0546',
+    'response' => 9546,
+    'message' => 'Error DISCOVER',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0547' =>
+  array (
+    'code' => 'SIS0547',
+    'response' => 9547,
+    'message' => 'Error DISCOVER',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0548' =>
+  array (
+    'code' => 'SIS0548',
+    'response' => 9548,
+    'message' => 'Error DISCOVER',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0549' =>
+  array (
+    'code' => 'SIS0549',
+    'response' => 9549,
+    'message' => 'Error DISCOVER',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0550' =>
+  array (
+    'code' => 'SIS0550',
+    'response' => 9550,
+    'message' => 'ERROR en el gestor de envío de los SMS. Consulte con Redsys',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0551' =>
+  array (
+    'code' => 'SIS0551',
+    'response' => 9551,
+    'message' => 'ERROR en el proceso de autenticación.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0552' =>
+  array (
+    'code' => 'SIS0552',
+    'response' => 9552,
+    'message' => 'ERROR el resultado de la autenticacion PARes = \'U\'',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0553' =>
+  array (
+    'code' => 'SIS0553',
+    'response' => 9553,
+    'message' => 'ERROR se ha intentado hacer un pago con el método de pago UPI y la tarjeta no es china',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0554' =>
+  array (
+    'code' => 'SIS0554',
+    'response' => 9554,
+    'message' => 'ERROR el resultado de la autenticacion para UPI es PARes = \'U\' y el comercio no tiene métodos de pago no seguros UPI EXPRESSPAY',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0555' =>
+  array (
+    'code' => 'SIS0555',
+    'response' => 9555,
+    'message' => 'ERROR la IP de conexión del módulo de administración no esta entre las permitidas.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0556' =>
+  array (
+    'code' => 'SIS0556',
+    'response' => 9556,
+    'message' => 'Se envía pago Tradicional y el comercio no tiene pago Tradicional mundial ni Tradicional UE.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0557' =>
+  array (
+    'code' => 'SIS0557',
+    'response' => 9557,
+    'message' => 'Se envía pago Tarjeta en Archivo y el comercio no tiene pago Tradicional mundial ni Tradicional UE.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0558' =>
+  array (
+    'code' => 'SIS0558',
+    'response' => 9558,
+    'message' => 'ERROR, el formato de la fecha dsMerchantP2FExpiryDate es incorrecto',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0559' =>
+  array (
+    'code' => 'SIS0559',
+    'response' => 9559,
+    'message' => 'ERROR el id Operacion de la respuesta en la autenticación PPII es nulo o no se ha obtenido de la autenticación final',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0560' =>
+  array (
+    'code' => 'SIS0560',
+    'response' => 9560,
+    'message' => 'ERROR al enviar la notificacion de autenticacion al comercio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0561' =>
+  array (
+    'code' => 'SIS0561',
+    'response' => 9561,
+    'message' => 'ERROR el idOperación de la respuesta de una confirmacion separada OK es nulo o no coincide con el idOp. de la Confirmacion.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0562' =>
+  array (
+    'code' => 'SIS0562',
+    'response' => 9562,
+    'message' => 'ERROR la respuesta de la petición de confirmacion separada de PPII es nula.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0563' =>
+  array (
+    'code' => 'SIS0563',
+    'response' => 9563,
+    'message' => 'ERROR tratando la respuesta de la confirmacion separada de PPII.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0564' =>
+  array (
+    'code' => 'SIS0564',
+    'response' => 9564,
+    'message' => 'ERROR chequeando los importes de DCC antes del envío de la operación a Stratus.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0565' =>
+  array (
+    'code' => 'SIS0565',
+    'response' => 9565,
+    'message' => 'Formato del importe del campo Ds_Merchant_Amount excede del límite permitido.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0566' =>
+  array (
+    'code' => 'SIS0566',
+    'response' => 9566,
+    'message' => 'Error de acceso al nuevo Servidor Criptográfico.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0567' =>
+  array (
+    'code' => 'SIS0567',
+    'response' => 9567,
+    'message' => 'ERROR se ha intentado hacer un pago con una tarjeta china UPI y el comercio no tiene método de pago UPI',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0568' =>
+  array (
+    'code' => 'SIS0568',
+    'response' => 9568,
+    'message' => 'Operacion de consulta de tarjeta rechazada, tipo de transacción erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0569' =>
+  array (
+    'code' => 'SIS0569',
+    'response' => 9569,
+    'message' => 'Operacion de consulta de tarjeta rechazada, no se ha informado la tarjeta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0570' =>
+  array (
+    'code' => 'SIS0570',
+    'response' => 9570,
+    'message' => 'Operacion de consulta de tarjeta rechazada, se ha enviado tarjeta y referencia',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0571' =>
+  array (
+    'code' => 'SIS0571',
+    'response' => 9571,
+    'message' => 'Operacion de autenticacion rechazada, protocolVersion no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0572' =>
+  array (
+    'code' => 'SIS0572',
+    'response' => 9572,
+    'message' => 'Operacion de autenticacion rechazada, protocolVersion no reconocido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0573' =>
+  array (
+    'code' => 'SIS0573',
+    'response' => 9573,
+    'message' => 'Operacion de autenticacion rechazada, browserAcceptHeader no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0574' =>
+  array (
+    'code' => 'SIS0574',
+    'response' => 9574,
+    'message' => 'Operacion de autenticacion rechazada, browserUserAgent no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0575' =>
+  array (
+    'code' => 'SIS0575',
+    'response' => 9575,
+    'message' => 'Operacion de autenticacion rechazada, browserJavaEnabled no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0576' =>
+  array (
+    'code' => 'SIS0576',
+    'response' => 9576,
+    'message' => 'Operacion de autenticacion rechazada, browserLanguage no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0577' =>
+  array (
+    'code' => 'SIS0577',
+    'response' => 9577,
+    'message' => 'Operacion de autenticacion rechazada, browserColorDepth no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0578' =>
+  array (
+    'code' => 'SIS0578',
+    'response' => 9578,
+    'message' => 'Operacion de autenticacion rechazada, browserScreenHeight no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0579' =>
+  array (
+    'code' => 'SIS0579',
+    'response' => 9579,
+    'message' => 'Operacion de autenticacion rechazada, browserScreenWidth no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0580' =>
+  array (
+    'code' => 'SIS0580',
+    'response' => 9580,
+    'message' => 'Operacion de autenticacion rechazada, browserTZ no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0581' =>
+  array (
+    'code' => 'SIS0581',
+    'response' => 9581,
+    'message' => 'Operacion de autenticacion rechazada, datos DS_MERCHANT_EMV3DS no está indicado o es demasiado grande y no se puede convertir en JSON',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0582' =>
+  array (
+    'code' => 'SIS0582',
+    'response' => 9582,
+    'message' => 'Operacion de autenticacion rechazada, threeDSServerTransID no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0583' =>
+  array (
+    'code' => 'SIS0583',
+    'response' => 9583,
+    'message' => 'Operacion de autenticacion rechazada, threeDSCompInd no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0584' =>
+  array (
+    'code' => 'SIS0584',
+    'response' => 9584,
+    'message' => 'Operacion de autenticacion rechazada, notificationURL no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0585' =>
+  array (
+    'code' => 'SIS0585',
+    'response' => 9585,
+    'message' => 'Operacion de autenticacion EMV3DS rechazada, no existen datos en la BBDD',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0586' =>
+  array (
+    'code' => 'SIS0586',
+    'response' => 9586,
+    'message' => 'Operacion de autenticacion rechazada, PARes no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0587' =>
+  array (
+    'code' => 'SIS0587',
+    'response' => 9587,
+    'message' => 'Operacion de autenticacion rechazada, MD no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0588' =>
+  array (
+    'code' => 'SIS0588',
+    'response' => 9588,
+    'message' => 'Operacion de autenticacion rechazada, la versión no coincide entre los mensajes AuthenticationData y ChallengeResponse',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0589' =>
+  array (
+    'code' => 'SIS0589',
+    'response' => 9589,
+    'message' => 'Operacion de autenticacion rechazada, respuesta sin CRes',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0590' =>
+  array (
+    'code' => 'SIS0590',
+    'response' => 9590,
+    'message' => 'Operacion de autenticacion rechazada, error al desmontar la respuesta CRes',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0591' =>
+  array (
+    'code' => 'SIS0591',
+    'response' => 9591,
+    'message' => 'Operacion de autenticacion rechazada, error la respuesta CRes viene sin threeDSServerTransID',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0592' =>
+  array (
+    'code' => 'SIS0592',
+    'response' => 9592,
+    'message' => 'Operacion de autenticacion rechazada, error el transStatus del CRes no coincide con el transStatus de la consulta final de la operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0593' =>
+  array (
+    'code' => 'SIS0593',
+    'response' => 9593,
+    'message' => 'Operacion de autenticacion rechazada, error el transStatus de la consulta final de la operación no está definido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0594' =>
+  array (
+    'code' => 'SIS0594',
+    'response' => 9594,
+    'message' => 'Operacion de autenticacion rechazada, CRes no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0595' =>
+  array (
+    'code' => 'SIS0595',
+    'response' => 9595,
+    'message' => 'El comercio indicado no tiene métodos de pago seguros permitidos en 3DSecure V2',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0596' =>
+  array (
+    'code' => 'SIS0596',
+    'response' => 9596,
+    'message' => 'Operacion de consulta de tarjeta rechazada,moneda errónea',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0597' =>
+  array (
+    'code' => 'SIS0597',
+    'response' => 9597,
+    'message' => 'Operacion de consulta de tarjeta rechazada,importe erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0598' =>
+  array (
+    'code' => 'SIS0598',
+    'response' => 9598,
+    'message' => 'Autenticación 3DSecure v2 errónea, y no se permite hacer fallback a 3DSecure v1',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0599' =>
+  array (
+    'code' => 'SIS0599',
+    'response' => 9599,
+    'message' => 'Error en el proceso de autenticación 3DSecure v2',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0600' =>
+  array (
+    'code' => 'SIS0600',
+    'response' => 9600,
+    'message' => 'Error en el proceso de autenticación 3DSecure v2 - Respuesta Areq N',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0601' =>
+  array (
+    'code' => 'SIS0601',
+    'response' => 9601,
+    'message' => 'Error en el proceso de autenticación 3DSecure v2 - Respuesta Areq R',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0602' =>
+  array (
+    'code' => 'SIS0602',
+    'response' => 9602,
+    'message' => 'Error en el proceso de autenticación 3DSecure v2 - Respuesta Areq U y el comercio no tiene método de pago U',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0603' =>
+  array (
+    'code' => 'SIS0603',
+    'response' => 9603,
+    'message' => 'Error en el parámetro DS_MERCHANT_DCC de DCC enviado en operacion H2H (REST y SOAP)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0604' =>
+  array (
+    'code' => 'SIS0604',
+    'response' => 9604,
+    'message' => 'Error en los datos de DCC enviados en el parámetro DS_MERCHANT_DCC en operacion H2H (REST y SOAP)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0605' =>
+  array (
+    'code' => 'SIS0605',
+    'response' => 9605,
+    'message' => 'Error en el parámetro DS_MERCHANT_MPIEXTERNAL enviado en operacion H2H (REST y SOAP)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0606' =>
+  array (
+    'code' => 'SIS0606',
+    'response' => 9606,
+    'message' => 'Error en los datos de MPI enviados en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP)',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0607' =>
+  array (
+    'code' => 'SIS0607',
+    'response' => 9607,
+    'message' => 'Error del parámetro TXID de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0608' =>
+  array (
+    'code' => 'SIS0608',
+    'response' => 9608,
+    'message' => 'Error del parámetro CAVV de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0609' =>
+  array (
+    'code' => 'SIS0609',
+    'response' => 9609,
+    'message' => 'Error del parámetro ECI de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0610' =>
+  array (
+    'code' => 'SIS0610',
+    'response' => 9610,
+    'message' => 'Error del parámetro threeDSServerTransID de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0611' =>
+  array (
+    'code' => 'SIS0611',
+    'response' => 9611,
+    'message' => 'Error del parámetro dsTransID de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0612' =>
+  array (
+    'code' => 'SIS0612',
+    'response' => 9612,
+    'message' => 'Error del parámetro authenticacionValue de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0613' =>
+  array (
+    'code' => 'SIS0613',
+    'response' => 9613,
+    'message' => 'Error del parámetro protocolVersion de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0614' =>
+  array (
+    'code' => 'SIS0614',
+    'response' => 9614,
+    'message' => 'Error del parámetro Eci de MPI enviado en el parámetro DS_MERCHANT_MPIEXTERNAL en operacion H2H (REST y SOAP) es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0615' =>
+  array (
+    'code' => 'SIS0615',
+    'response' => 9615,
+    'message' => 'Error en MPI Externo, marca de tarjeta no permitida en SIS para MPI Externo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0616' =>
+  array (
+    'code' => 'SIS0616',
+    'response' => 9616,
+    'message' => 'Error del parámetro DS_MERCHANT_EXCEP_SCA tiene un valor erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0617' =>
+  array (
+    'code' => 'SIS0617',
+    'response' => 9617,
+    'message' => 'Error del parámetro DS_MERCHANT_EXCEP_SCA es de tipo MIT y no vienen datos de COF o de pago por referencia',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0618' =>
+  array (
+    'code' => 'SIS0618',
+    'response' => 9618,
+    'message' => 'Error la exención enviada no está permitida y el comercio no está preparado para autenticar',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0619' =>
+  array (
+    'code' => 'SIS0619',
+    'response' => 9619,
+    'message' => 'Se recibe orderReferenceId de Amazon y no está el método de pago configurado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0620' =>
+  array (
+    'code' => 'SIS0620',
+    'response' => 9620,
+    'message' => 'Error la operación de DCC tiene asociado un markUp más alto del permitido, se borran los datos de DCC',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0621' =>
+  array (
+    'code' => 'SIS0621',
+    'response' => 9621,
+    'message' => 'El amazonOrderReferenceId no es válido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0622' =>
+  array (
+    'code' => 'SIS0622',
+    'response' => 9622,
+    'message' => 'Error la operación original se hizo sin marca de Nuevo modelo DCC y el comercio está configurado como Nuevo Modelo DCC',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0623' =>
+  array (
+    'code' => 'SIS0623',
+    'response' => 9623,
+    'message' => 'Error la operación original se hizo con marca de Nuevo modelo DCC y el comercio no está configurado como Nuevo Modelo DCC',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0624' =>
+  array (
+    'code' => 'SIS0624',
+    'response' => 9624,
+    'message' => 'Error la operación original se hizo con marca de Nuevo modelo DCC pero su valor difiere del modelo configurado en el comercio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0625' =>
+  array (
+    'code' => 'SIS0625',
+    'response' => 9625,
+    'message' => 'Error en la anulación del pago, porque ya existe una devolución asociada a ese pago',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0626' =>
+  array (
+    'code' => 'SIS0626',
+    'response' => 9626,
+    'message' => 'Error en la devolución del pago, ya existe una anulación de la operación que se desea devolver',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0627' =>
+  array (
+    'code' => 'SIS0627',
+    'response' => 9627,
+    'message' => 'El número de referencia o solicitud enviada por CRTM no válida.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0628' =>
+  array (
+    'code' => 'SIS0628',
+    'response' => 9628,
+    'message' => 'Error la operación de viene con datos de 3DSecure y viene por la entrada SERMEPA',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0629' =>
+  array (
+    'code' => 'SIS0629',
+    'response' => 9629,
+    'message' => 'Error no existe la operación de confirmación separada sobre la que realizar la anulación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0630' =>
+  array (
+    'code' => 'SIS0630',
+    'response' => 9630,
+    'message' => 'Error en la anulación de confirmación separada, ya existe una devolución asociada a la confirmación separada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0631' =>
+  array (
+    'code' => 'SIS0631',
+    'response' => 9631,
+    'message' => 'Error en la anulación de confirmación separada, ya existe una anulación asociada a la confirmación separada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0632' =>
+  array (
+    'code' => 'SIS0632',
+    'response' => 9632,
+    'message' => 'Error la confirmacion separada sobre la que se desea anular no está autorizada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0633' =>
+  array (
+    'code' => 'SIS0633',
+    'response' => 9633,
+    'message' => 'La fecha de Anulación no puede superar en los días configurados a la confirmacion separada.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0634' =>
+  array (
+    'code' => 'SIS0634',
+    'response' => 9634,
+    'message' => 'Error no existe la operación de pago sobre la que realizar la anulación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0635' =>
+  array (
+    'code' => 'SIS0635',
+    'response' => 9635,
+    'message' => 'Error en la anulación del pago, ya existe una anulación asociada al pago',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0636' =>
+  array (
+    'code' => 'SIS0636',
+    'response' => 9636,
+    'message' => 'Error el pago que se desea anular no está autorizado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0637' =>
+  array (
+    'code' => 'SIS0637',
+    'response' => 9637,
+    'message' => 'La fecha de Anulación no puede superar en los días configurados al pago.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0638' =>
+  array (
+    'code' => 'SIS0638',
+    'response' => 9638,
+    'message' => 'Error existe más de una devolución que se quiere anular y no se ha especificado cual.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0639' =>
+  array (
+    'code' => 'SIS0639',
+    'response' => 9639,
+    'message' => 'Error no existe la operación de devolución sobre la que realizar la anulación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0640' =>
+  array (
+    'code' => 'SIS0640',
+    'response' => 9640,
+    'message' => 'Error la confirmacion separada sobre la que se desea anular no está autorizada o ya está anulada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0641' =>
+  array (
+    'code' => 'SIS0641',
+    'response' => 9641,
+    'message' => 'La fecha de Anulación no puede superar en los días configurados a la devolución.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0642' =>
+  array (
+    'code' => 'SIS0642',
+    'response' => 9642,
+    'message' => 'La fecha de la preautorización que se desea reemplazar no puede superar los 30 días de antigüedad',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0643' =>
+  array (
+    'code' => 'SIS0643',
+    'response' => 9643,
+    'message' => 'Error al obtener la personalización del comercio',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0644' =>
+  array (
+    'code' => 'SIS0644',
+    'response' => 9644,
+    'message' => 'Error en el proceso de autenticación 3DSecure v2 - Se envían datos de la entrada IniciaPetición a la entrada TrataPetición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0645' =>
+  array (
+    'code' => 'SIS0645',
+    'response' => 9645,
+    'message' => '',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0646' =>
+  array (
+    'code' => 'SIS0646',
+    'response' => 9646,
+    'message' => '',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0647' =>
+  array (
+    'code' => 'SIS0647',
+    'response' => 9647,
+    'message' => '',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0648' =>
+  array (
+    'code' => 'SIS0648',
+    'response' => 9648,
+    'message' => '',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0649' =>
+  array (
+    'code' => 'SIS0649',
+    'response' => 9649,
+    'message' => '',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0650' =>
+  array (
+    'code' => 'SIS0650',
+    'response' => 9650,
+    'message' => 'Error, la MAC no es correcta en la mensajeria de pago de tributos',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0651' =>
+  array (
+    'code' => 'SIS0651',
+    'response' => 9651,
+    'message' => 'Error la exención exige SCA y el comercio no está preparado para autenticar',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0652' =>
+  array (
+    'code' => 'SIS0652',
+    'response' => 9652,
+    'message' => 'Error la exención y la configuración del comercio exigen no SCA y el comercio no está configurado para autorizar con dicha marca de tarjeta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0653' =>
+  array (
+    'code' => 'SIS0653',
+    'response' => 9653,
+    'message' => 'Operacion de autenticacion rechazada, browserJavascriptEnabled no indicado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0654' =>
+  array (
+    'code' => 'SIS0654',
+    'response' => 9654,
+    'message' => 'Error, se indican datos de 3RI en Inicia Petición y la versión que se envía en el trataPetición no es 2.2',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0655' =>
+  array (
+    'code' => 'SIS0655',
+    'response' => 9655,
+    'message' => 'Error, se indican un valor de Ds_Merchant_3RI_Ind no permitido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0656' =>
+  array (
+    'code' => 'SIS0656',
+    'response' => 9656,
+    'message' => 'Error, se indican un valor Ds_Merchant_3RI_Ind diferentes en el Inicia Petición y en el trataPetición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0657' =>
+  array (
+    'code' => 'SIS0657',
+    'response' => 9657,
+    'message' => 'Error, se indican datos de 3RI pero están incompletos',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0658' =>
+  array (
+    'code' => 'SIS0658',
+    'response' => 9658,
+    'message' => 'Error, el parámetro threeRITrasactionID es erróneo o no se encuentran datos de operación original',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0659' =>
+  array (
+    'code' => 'SIS0659',
+    'response' => 9659,
+    'message' => 'Error, los datos de FUC y Terminal obtenidos del threeRITrasactionID no corresponden al comercio que envía la operación',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0660' =>
+  array (
+    'code' => 'SIS0660',
+    'response' => 9660,
+    'message' => '3RI',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0661' =>
+  array (
+    'code' => 'SIS0661',
+    'response' => 9661,
+    'message' => '3RI',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0662' =>
+  array (
+    'code' => 'SIS0662',
+    'response' => 9662,
+    'message' => 'Error, el comercio no está entre los permitidos para realizar confirmaciones parciales.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0663' =>
+  array (
+    'code' => 'SIS0663',
+    'response' => 9663,
+    'message' => 'No existe datos de Inicia Petición que concuerden con los enviados por el comercio en el mensaje Trata Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0664' =>
+  array (
+    'code' => 'SIS0664',
+    'response' => 9664,
+    'message' => 'No se envía el elemento Id Transaccion 3DS Server en el mensaje Trata Petición y dicho elemento existe en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0665' =>
+  array (
+    'code' => 'SIS0665',
+    'response' => 9665,
+    'message' => 'La moneda indicada por el comercio en el mensaje Trata Petición no corresponde con la enviada en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0666' =>
+  array (
+    'code' => 'SIS0666',
+    'response' => 9666,
+    'message' => 'El importe indicado por el comercio en el mensaje Trata Petición no corresponde con el enviado en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0667' =>
+  array (
+    'code' => 'SIS0667',
+    'response' => 9667,
+    'message' => 'El tipo de operación indicado por el comercio en el mensaje Trata Petición no corresponde con el enviado en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0668' =>
+  array (
+    'code' => 'SIS0668',
+    'response' => 9668,
+    'message' => 'La referencia indicada por el comercio en el mensaje Trata Petición no corresponde con la enviada en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0669' =>
+  array (
+    'code' => 'SIS0669',
+    'response' => 9669,
+    'message' => 'El Id Oper Insite indicado por el comercio en el mensaje Trata Petición no corresponde con el enviado en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0670' =>
+  array (
+    'code' => 'SIS0670',
+    'response' => 9670,
+    'message' => 'La tarjeta indicada por el comercio en el mensaje Trata Petición no corresponde con la enviada en el mensaje Inicia Petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0671' =>
+  array (
+    'code' => 'SIS0671',
+    'response' => 9671,
+    'message' => 'Denegación por TRA Lynx',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0672' =>
+  array (
+    'code' => 'SIS0672',
+    'response' => 9672,
+    'message' => 'Bizum. Fallo en la autenticación. Bloqueo tras tres intentos.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0673' =>
+  array (
+    'code' => 'SIS0673',
+    'response' => 9673,
+    'message' => 'Bizum. Operación cancelada. El usuario no desea seguir.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0674' =>
+  array (
+    'code' => 'SIS0674',
+    'response' => 9674,
+    'message' => 'Bizum. Abono rechazado por beneficiario.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0675' =>
+  array (
+    'code' => 'SIS0675',
+    'response' => 9675,
+    'message' => 'Bizum. Cargo rechazado por ordenante.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0676' =>
+  array (
+    'code' => 'SIS0676',
+    'response' => 9676,
+    'message' => 'Bizum. El procesador rechaza la operación.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0677' =>
+  array (
+    'code' => 'SIS0677',
+    'response' => 9677,
+    'message' => 'Bizum. Saldo disponible insuficiente.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0678' =>
+  array (
+    'code' => 'SIS0678',
+    'response' => 9678,
+    'message' => 'La versión de 3DSecure indicada en el Trata Petición es errónea o es superior a la devuelva en el inicia petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0681' =>
+  array (
+    'code' => 'SIS0681',
+    'response' => 9681,
+    'message' => 'Error al insertar los datos de autenticación en una operación con MPI Externo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0682' =>
+  array (
+    'code' => 'SIS0682',
+    'response' => 9682,
+    'message' => 'Error la operación es de tipo Consulta de TRA y el parámetro Ds_Merchant_TRA_Data es erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0683' =>
+  array (
+    'code' => 'SIS0683',
+    'response' => 9683,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 1 y falta el parámetro Ds_Merchant_TRA_Type',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0684' =>
+  array (
+    'code' => 'SIS0684',
+    'response' => 9684,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 1 y el parámetro Ds_Merchant_TRA_Type tiene un valor no permitido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0685' =>
+  array (
+    'code' => 'SIS0685',
+    'response' => 9685,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 1 y el perfil del comercio no le permite exención TRA',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0686' =>
+  array (
+    'code' => 'SIS0686',
+    'response' => 9686,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 1 y la confifguración del comercio no le permite usar el TRA de Redsys',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0687' =>
+  array (
+    'code' => 'SIS0687',
+    'response' => 9687,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 2 y falta el parámetro Ds_Merchant_TRA_Result o tiene un valor no permitido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0688' =>
+  array (
+    'code' => 'SIS0688',
+    'response' => 9688,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 2 y falta el parámetro Ds_Merchant_TRA_Method o tiene un valor erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0689' =>
+  array (
+    'code' => 'SIS0689',
+    'response' => 9689,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 2, no existe una operación concreta de Fase 1',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0690' =>
+  array (
+    'code' => 'SIS0690',
+    'response' => 9690,
+    'message' => 'Error la operación es de tipo Consulta de TRA Fase 2 y obtenemos un error en la respuesta de Lynx',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0691' =>
+  array (
+    'code' => 'SIS0691',
+    'response' => 9691,
+    'message' => 'Se envían datos SamsungPay y el comercio no tiene dado de alta el método de pago SamsungPay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0692' =>
+  array (
+    'code' => 'SIS0692',
+    'response' => 9692,
+    'message' => 'Se envía petición con firma de PSP y el comercio no tiene asociado un PSP.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0693' =>
+  array (
+    'code' => 'SIS0693',
+    'response' => 9693,
+    'message' => 'No se han obtenido correctamente los datos enviados por SamsungPay.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS0694' =>
+  array (
+    'code' => 'SIS0694',
+    'response' => 9694,
+    'message' => 'No ha podido realizarse el pago con SamsungPay',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0700' =>
   array (
     'code' => 'SIS0700',
@@ -2855,11 +4767,43 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS076' =>
+  array (
+    'code' => 'SIS076',
+    'response' => 9276,
+    'message' => 'Unidades del Premio no numericas.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS080' =>
+  array (
+    'code' => 'SIS080',
+    'response' => 9380,
+    'message' => 'Error en formato Scf_Ticket_Num_Passengers. Longitud máxima 1.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0801' =>
   array (
     'code' => 'SIS0801',
     'response' => 9801,
     'message' => 'Denegada por iUPAY',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS081' =>
+  array (
+    'code' => 'SIS081',
+    'response' => 9381,
+    'message' => 'Error en formato Scf_Passenger_Dni. Longitud máxima 16.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'SIS082' =>
+  array (
+    'code' => 'SIS082',
+    'response' => 9382,
+    'message' => 'Error en formato Scf_Passenger_Name. Longitud máxima 30.',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
@@ -2983,6 +4927,14 @@
     'msg' => 'MSG0008',
     'detail' => '',
   ),
+  'SIS0966' =>
+  array (
+    'code' => 'SIS0966',
+    'response' => 9966,
+    'message' => 'BIZUM ha devuelto un KO en la autorización',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
   'SIS0992' =>
   array (
     'code' => 'SIS0992',
@@ -3036,6 +4988,358 @@
     'code' => 'SIS0999',
     'response' => 9999,
     'message' => 'Operación que ha sido redirigida al emisor a autenticar',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0000' =>
+  array (
+    'code' => 'XML0000',
+    'response' => 0,
+    'message' => 'Errores en el proceso del XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0001' =>
+  array (
+    'code' => 'XML0001',
+    'response' => 0,
+    'message' => 'Error en la generación del DOM a partir del XML-String recibido y la DTD definida',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0002' =>
+  array (
+    'code' => 'XML0002',
+    'response' => 0,
+    'message' => 'No existe el elemento "Message" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0003' =>
+  array (
+    'code' => 'XML0003',
+    'response' => 0,
+    'message' => 'El tipo de "Message" en el XML-String recibido tiene un valor desconcido o inválido en la petición',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0004' =>
+  array (
+    'code' => 'XML0004',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_MerchantCode" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0005' =>
+  array (
+    'code' => 'XML0005',
+    'response' => 0,
+    'message' => 'El elemento "Ds_MerchantCode" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0006' =>
+  array (
+    'code' => 'XML0006',
+    'response' => 0,
+    'message' => 'El elemento "Ds_MerchantCode" tiene una longitud incorrecta en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0007' =>
+  array (
+    'code' => 'XML0007',
+    'response' => 0,
+    'message' => 'El elemento "Ds_MerchantCode" no tiene formato numérico en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0008' =>
+  array (
+    'code' => 'XML0008',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_Terminal" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0009' =>
+  array (
+    'code' => 'XML0009',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Terminal" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0010' =>
+  array (
+    'code' => 'XML0010',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Terminal" tiene una longitud incorrecta en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0011' =>
+  array (
+    'code' => 'XML0011',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Terminal" no tiene formato numérico en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0012' =>
+  array (
+    'code' => 'XML0012',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_Order" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0013' =>
+  array (
+    'code' => 'XML0013',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Order" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0014' =>
+  array (
+    'code' => 'XML0014',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Order" tiene una longitud incorrecta en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0015' =>
+  array (
+    'code' => 'XML0015',
+    'response' => 0,
+    'message' => 'El elemento "Ds_Order" no tiene sus 4 primeras posiciones numéricas en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0016' =>
+  array (
+    'code' => 'XML0016',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_TransactionType" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0017' =>
+  array (
+    'code' => 'XML0017',
+    'response' => 0,
+    'message' => 'El elemento "Ds_TransactionType" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0018' =>
+  array (
+    'code' => 'XML0018',
+    'response' => 0,
+    'message' => 'El elemento "Ds_TransactionType" tiene una longitud incorrecta en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0019' =>
+  array (
+    'code' => 'XML0019',
+    'response' => 0,
+    'message' => 'El elemento "Ds_TransactionType" no tiene formato numérico en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0020' =>
+  array (
+    'code' => 'XML0020',
+    'response' => 0,
+    'message' => 'El elemento "Ds_TransactionType" tiene un valor desconcido o inválido en un mensaje Transaction',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0021' =>
+  array (
+    'code' => 'XML0021',
+    'response' => 0,
+    'message' => 'No existe el elemento "Signature" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0022' =>
+  array (
+    'code' => 'XML0022',
+    'response' => 0,
+    'message' => 'El elemento "Signature" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0023' =>
+  array (
+    'code' => 'XML0023',
+    'response' => 0,
+    'message' => 'La firma no es correcta',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0024' =>
+  array (
+    'code' => 'XML0024',
+    'response' => 0,
+    'message' => 'No existen operaciones para los datos solicitados',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0025' =>
+  array (
+    'code' => 'XML0025',
+    'response' => 0,
+    'message' => 'El XML de respuesta está mal formado',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0026' =>
+  array (
+    'code' => 'XML0026',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_fecha_inicio" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0027' =>
+  array (
+    'code' => 'XML0027',
+    'response' => 0,
+    'message' => 'No existe el elemento "Ds_fecha_fin" en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0028' =>
+  array (
+    'code' => 'XML0028',
+    'response' => 0,
+    'message' => 'El comercio-terminal está dado de baja',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0029' =>
+  array (
+    'code' => 'XML0029',
+    'response' => 0,
+    'message' => 'El elemento "SignatureVersion" viene vacío en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0030' =>
+  array (
+    'code' => 'XML0030',
+    'response' => 0,
+    'message' => 'El elemento "SignatureVersion" viene con un valor erróneo en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0031' =>
+  array (
+    'code' => 'XML0031',
+    'response' => 0,
+    'message' => 'El elemento "Entrada" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0032' =>
+  array (
+    'code' => 'XML0032',
+    'response' => 0,
+    'message' => 'El elemento "Autorizada" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0033' =>
+  array (
+    'code' => 'XML0033',
+    'response' => 0,
+    'message' => 'El elemento "ImporteMayor" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0034' =>
+  array (
+    'code' => 'XML0034',
+    'response' => 0,
+    'message' => 'El elemento "ImporteMenor" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0035' =>
+  array (
+    'code' => 'XML0035',
+    'response' => 0,
+    'message' => 'El elemento "Autenticada" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0036' =>
+  array (
+    'code' => 'XML0036',
+    'response' => 0,
+    'message' => 'El elemento "DCC" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  'XML0037' =>
+  array (
+    'code' => 'XML0037',
+    'response' => 0,
+    'message' => 'El elemento "Paymethod" viene con un valor no permitido en el XML-String recibido',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  '?' =>
+  array (
+    'code' => '?',
+    'response' => 915,
+    'message' => 'El titular ha cancelado la operación de pago.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  101 =>
+  array (
+    'code' => '101',
+    'response' => 101,
+    'message' => 'Tarjeta caducada',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  106 =>
+  array (
+    'code' => '106',
+    'response' => 106,
+    'message' => 'Tarjeta bloqueada, exceso de pin erróneo',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  129 =>
+  array (
+    'code' => '129',
+    'response' => 129,
+    'message' => 'Código de seguridad CVV incorrecto.',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  180 =>
+  array (
+    'code' => '180',
+    'response' => 180,
+    'message' => 'Denegación emisor',
+    'msg' => 'MSG0008',
+    'detail' => '',
+  ),
+  184 =>
+  array (
+    'code' => '184',
+    'response' => 184,
+    'message' => 'el cliente de la operación no se ha autenticado',
     'msg' => 'MSG0008',
     'detail' => '',
   ),
